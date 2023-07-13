@@ -7,7 +7,6 @@ function App() {
   return (
     <>
     <Input setName = {setName} />
-    {console.log(name)}
     <Poxedex name = {name} />
     </>
   )

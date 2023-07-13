@@ -19,7 +19,7 @@ function Poxedex({ name }) {
       setData(data)
       // allows execution 
       setLoading(false)
-      loading? null: console.log(data)
+      // loading? null: console.log(data)
     })
     .catch(err => console.log(err))
   }
